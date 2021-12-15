@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="static/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Naitfe Colibries</title>
+    <script src="js/navbar.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <img src="static/colibri.png" heigth="75" width="100" style="margin:5px;" />
+            <a href="home.html" class="navbar-item title_navbar">NAITFE COLIBRIES</a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbar" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="home.html"> Nosotros</a>
+                <a class="navbar-item" href="productos.html">Nuestros productos</a>
+                <a class="navbar-item" href="blog.html">Blog</a>
+                <a class="navbar-item" href="contact.html">Contáctanos</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="title_p">
+        <div class="title_c">
+            <br>
+            <p class="title1_on_img">Contáctanos</p>
+        </div>
+    </div>
+    <br />
+    <br />
+    
+    
+    <div class="container is-fluid">
+        <div class="columns is-centered is-5">
+            <div class="column is-info is-one-third">
+                <form action="https://formsubmit.co/mj@naitfecolibries.com" name="form1" method="POST" id="form1">
+                    <div class="field">
+                        <label class="label">Nombres</label>
+                        <div class="control">
+                            <input id="first_name" class="input" type="text" name="first_name">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Apellidos</label>
+                        <div class="control">
+                            <input id="last_name" class="input" type="text" name="last_name">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Correo Electrónico</label>
+                        <div class="control">
+                            <input id="email" class="input" type="email" name="email" placeholder="email@example.com">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Su Mensaje:</label>
+                        <div class="control">
+                            <textarea id="message" class="textarea " name="message"></textarea>
+                        </div>
+                    </div>
+                    
+                    <p id="first_name_alert" style="color:red; visibility: visible;">Llene por favor todos los campos requeridos</p>
+                    <br>
+                    <button id="send" class="button is-success is-light send" style="font-weight:bold; ">Enviar</button>
+                    <input type="hidden" name="_next" value="https://naitfecolibries.com/thanks.html">
+                    <input type="hidden" name="_autoresponse" value="Gracias por contactarnos! Les contestaremos en las proximas 24 horas.">
+                    <input type="hidden" name="_template" value="box">
+                </form>
+            </div>
+            <div class="column is-one-quarter has-text-centered" style="justify-content: center; display: flex; flex-wrap: wrap;">
+                <img src="static/arcabuco.png" style="margin-top:25px;height: min-content;" />
+                <p style="font-size: 16px; margin-top:25px;">Nos encontramos en el departamento de Boyacá, municipio de Arcabuco, Vereda Peñas Blancas, vía Vílla de Leyva, 
+                    trabajamos con familias descendientes de los nativos americanos Muiscas y afrodescendientes minoritariamente.</p>
+            </div>
+        </div>
+    </div>   
+    <br>
+    <br>
+    <script src="js/contact.js"></script>
+    <footer class="footer" style=" background-color: #eaf0fa">
+        <div class="columns">
+            <div class="column"><img src="static/colibri_2.png" heigth="200" width="225" /></div>
+            <div class="column is-centered footer_links">
+                <p class="title_footer">NAITFE COLIBRIES</p>
+                <a href="home.html">Nosotros</a>
+                <a href="productos.html">Nuestros productos</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contáctanos</a>
+            </div>
+            <div class="column has-text-centered social_media">
+                <div>
+                    <a><img src="static/facebook.png" heigth="50" width="50" style="opacity:0.7" /></a>
+                    <a><img src="static/instagram.png" heigth="50" width="50" style="opacity:0.7" /></a>
+                    <a><img src="static/twitter.png" heigth="50" width="50" style="opacity:0.7" /></a>
+                    <a><img src="static/linkedin.png" heigth="50" width="50" style="opacity:0.7" /></a>
+                </div>
+                <br />
+                <p>Los Colibríes, Vía Villa de Leyva -Arcabuco</p>
+                <p>+57 3123233941</p>
+                <p>mj@naitfecolibries.com</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
