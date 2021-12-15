@@ -1,0 +1,208 @@
+nav a {
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    font-family: Gabriola;
+    font-size: x-large;
+    letter-spacing: 0.1em;
+}
+nav a:hover {
+    background-color: rgb(231, 195, 242, 0.5);
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+body,html {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+.title_p {
+    background: url("colibri.jpg");
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    overflow:hidden;
+    font-family:Gabriola;
+}
+
+.title_c{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: rgb(0,0,0,0.4);
+    color:white;
+}
+
+.title1_on_img{
+    text-align:center;
+    margin-top: 75px;
+    font-size:90px;
+}
+
+.title2_on_img{
+    text-align:center;
+    float:right; 
+    font-size:xx-large;
+    margin-right: 225px;
+
+}
+
+.title3_on_img{
+    text-align:center;
+    font-size:xx-large;
+}
+
+.title_on_product{
+    text-align:center;
+    font-size: x-large;
+    font-weight: 500;
+    color:black;
+}
+
+.title_footer{
+    font-size:xx-large;
+     font-family:Gabriola;
+}
+
+.text_title_home{
+    font-size: 32px; 
+    text-align: center;
+}
+
+.home_text1{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home_text2 td{
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_links a {
+    color: darkslategrey;
+    font-size: 18px;
+    display:table-row;
+}
+
+
+.address {
+    text-align:center;
+    font-size:18px;
+}
+
+.social_media a{
+    margin-right:12px;
+}
+
+.navbar-menu a {
+    margin-right:15px;
+}
+
+.back_to_products{
+    font-family: century gothic; 
+    font-weight:bold;
+    font-size: large;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap:15px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.title_navbar{
+    font-size:xx-large;
+}
+
+.video_1{
+    height:100%;
+    width:100%;
+    border-radius:10px;
+}
+
+@media only screen and (max-width:440px){
+    .video_1{
+        height:30%;
+        width:auto;
+        border-radius:10px;
+    }
+
+    .title_navbar{
+        font-size: 0px;
+    }
+    .nav_burger{
+        position:absolute;
+        margin-right: 50px;
+    }
+    body,html {
+        height:100%;
+        margin:0;
+        padding:0;
+    }
+}
+@media only screen and (max-width:600px){
+    .video_1{
+        height:50%;
+        width:auto;
+        border-radius:10px;
+    }
+    .title1_on_img{
+        text-align:center;
+        font-size:65px;
+        margin-top: 65px;
+    }
+    
+    .title2_on_img{
+        text-align:center;
+        font-size:x-large;
+        float:right;
+        margin-right:50px;
+        padding-top: 30px;
+    }
+
+    .title3_on_img{
+        text-align:center;
+        font-size:x-large;
+    }
+
+    .text_title_home{
+        font-size: 26px; 
+        text-align: center;
+    }
+
+    .home_text1{
+        font-size: medium;
+    }
+    .home_text2 td{
+        border-bottom: 1px solid lightgrey;
+        padding: 10px;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width:960px){
+    .video_1{
+        height:70%;
+        width:100%;
+        border-radius:10px;
+    }
+    .title2_on_img{
+        text-align:center;
+        float:right;
+        margin-right:50px;
+    }
+    .title_on_product{
+        text-align:center;
+        font-size: large;
+        font-weight: 500;
+        color:black;
+    }
+}
